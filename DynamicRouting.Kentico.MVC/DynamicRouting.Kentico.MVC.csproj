@@ -296,7 +296,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControllerExtensions.cs" />
     <Compile Include="DynamicHttpHandler.cs" />
+    <Compile Include="DynamicRouteConstraint.cs" />
+    <Compile Include="DynamicRouteHandler.cs" />
+    <Compile Include="DynamicRoutingAnalyzer.cs" />
+    <Compile Include="DynamicRoutingAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
